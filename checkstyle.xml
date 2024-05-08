@@ -10,4 +10,5 @@
     <module name="CyclomaticComplexity"/>
   </module>
   <module name="FileLength"/>
+  <module name="LineLength"/>
 </module>
