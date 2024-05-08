@@ -9,4 +9,5 @@
     <module name="BooleanExpressionComplexity"/>
     <module name="CyclomaticComplexity"/>
   </module>
+  <module name="FileLength"/>
 </module>
