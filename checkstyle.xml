@@ -13,4 +13,5 @@
   </module>
   <module name="FileLength"/>
   <module name="LineLength"/>
+  <module name="FileTabCharacter"/>
 </module>
