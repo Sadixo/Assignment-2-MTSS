@@ -10,6 +10,7 @@
     <module name="CyclomaticComplexity"/>
     <module name="MethodLength"/>
     <module name="EmptyCatchBlock"/>
+    <module name="AvoidStarImport"/>
   </module>
   <module name="FileLength"/>
   <module name="LineLength"/>
