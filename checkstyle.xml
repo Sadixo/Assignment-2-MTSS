@@ -12,6 +12,7 @@
     <module name="EmptyCatchBlock"/>
     <module name="AvoidStarImport"/>
     <module name="IllegalImport"/>
+    <module name="NeedBraces"/>
   </module>
   <module name="FileLength"/>
   <module name="LineLength"/>
