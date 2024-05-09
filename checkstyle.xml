@@ -9,6 +9,7 @@
     <module name="BooleanExpressionComplexity"/>
     <module name="CyclomaticComplexity"/>
     <module name="MethodLength"/>
+    <module name="EmptyCatchBlock"/>
   </module>
   <module name="FileLength"/>
   <module name="LineLength"/>
