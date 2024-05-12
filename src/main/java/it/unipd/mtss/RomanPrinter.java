@@ -4,11 +4,12 @@
 ////////////////////////////////////////////////////////////////////
 
 package it.unipd.mtss;
-
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+public class RomanPrinter {
+  public static String print(int num){
+    return printAsciiArt(IntegerToRoman.convert(num));
+  }
+  private static String printAsciiArt(String romanNumber){
+    //TODO
+    return null;
+  }
 }
