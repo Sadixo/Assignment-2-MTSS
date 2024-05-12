@@ -38,7 +38,12 @@ public class IntegerToRomanTest {
         arguments(40, "XL"),
         arguments(44, "XLIV"),
         arguments(49, "XLIX"),
-        arguments(50, "L")
+        arguments(50, "L"),
+        arguments(67, "LXVII"),
+        arguments(74, "LXXIV"),
+        arguments(89, "LXXXIX"),
+        arguments(90, "XC"),
+        arguments(100, "C")
         );
   } 
 }
