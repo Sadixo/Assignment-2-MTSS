@@ -19,6 +19,8 @@ public class IntegerToRomanTest {
 
   private static Stream<Arguments> numberToRoman() {
     return Stream.of(
+        arguments(0, ""),
+        arguments(-2, ""),
         arguments(1, "I"),
         arguments(2, "II"),
         arguments(3, "III"),
@@ -48,7 +50,17 @@ public class IntegerToRomanTest {
         arguments(222, "CCXXII"),
         arguments(340, "CCCXL"),
         arguments(444, "CDXLIV"),
-        arguments(500, "D")
+        arguments(500, "D"),
+        arguments(556, "DLVI"),
+        arguments(590, "DXC"),
+        arguments(637, "DCXXXVII"),
+        arguments(661, "DCLXI"),
+        arguments(709, "DCCIX"),
+        arguments(771, "DCCLXXI"),
+        arguments(824, "DCCCXXIV"),
+        arguments(892, "DCCCXCII"),
+        arguments(992, "CMXCII"),
+        arguments(1000, "M")
         );
   } 
 }
