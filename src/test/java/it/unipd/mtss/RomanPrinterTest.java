@@ -37,17 +37,17 @@ public class RomanPrinterTest {
 
   private static Stream<Arguments> stringToAsciiArt() {
     return Stream.of(
-        arguments(1," ___ \n"+
+        arguments(1,"  ___ \n"+
                   " |_ _|\n"+
                   "  | | \n"+
                   "  | | \n"+
                   " |___|\n"),
-          arguments(2," ___  ___ \n"+
+          arguments(2,"  ___  ___ \n"+
                   " |_ _| |_ _|\n"+
                   "  | |   | | \n"+
                   "  | |   | | \n"+
                   " |___| |___|\n"),
-          arguments(3," ___  ___  ___ \n"+
+          arguments(3,"  ___  ___  ___ \n"+
                   " |_ _| |_ _| |_ _|\n"+
                   "  | |   | |   | | \n"+
                   "  | |   | |   | | \n"+
