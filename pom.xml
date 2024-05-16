@@ -147,6 +147,27 @@
             <repoToken>VhSyj81K6IFFzkMUNQcz8YXhbhWbqluUp</repoToken>
           </configuration>
         </plugin>
+<!-- Generate badges. -->
+		<plugin>
+			<groupId>com.github.bordertech.buildtools</groupId>
+			<artifactId>badger</artifactId>
+			<version>1.0.0</version>
+			<executions>
+				<execution>
+					<phase>post-site</phase>
+					<goals>
+						<goal>badges</goal>
+					</goals>
+					<configuration>
+						<skip>${badges.skip}</skip>
+						<outputDir>.github/badges</outputDir>
+						<inputFiles>
+							<inputFile>target/checkstyle-result.xml</inputFile>
+						</inputFiles>
+					</configuration>
+				</execution>
+			</executions>
+		</plugin>
     </plugins>
   </build>
 </project>
