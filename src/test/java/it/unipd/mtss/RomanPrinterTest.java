@@ -37,6 +37,8 @@ public class RomanPrinterTest {
 
     private static Stream<Arguments> stringToAsciiArt() {
 	return Stream.of(
+			 arguments(-1,""),
+			 arguments(0,""),
 			 arguments(1," ___ \n"+
 				   "|_ _|\n"+
 				   " | | \n"+
